@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#titulo{
+    font-weight: 1200;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#option_bar{
+    background-color: #2475F0;
+    margin-bottom: 0px;
+    height: 40px;
+    margin: 0px auto;
+
+    
+}
+#options_{
+    color: #fff;
+    padding-top: 10px;
+    padding: 10px;
+}
+table#configuration{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9px;
+
+}
+#banner{
+    height: 400px;
+    margin-top: 0px;
+    background-image: url(../mockup/img/banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+h3, h4{
+    text-align: center;
+}
+#icono_index{
+    height: 220px;
+}
+#icon_{
+    background-position: center;
+    background-size: cover;
+    margin: 0px auto;
+    width: 240px;
+    height: 210px;
+    
+}
+#espacio_abajo{
+    margin-top: 60px;
+    height: 200px;
+    color: #2475F0;
+    background-color: #2475F0;
+}
+
+table#tabla{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 100px 60px;
+}
+img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    padding: 5px;
+}
+@media (max-width: 800px){
+    .column{
+        flex: 50%
+    }
+}
+@media (max-width: 600px){
+    .column{
+        flex: 100%
+    }
+}
+.background{
+    margin: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-size: 0px;
+    background: linear-gradient(#62B4FF, #7E98FF, #B960FF);
+    background-position: center;
+    border-radius: 10px;
+}
+.form, input, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px #7e7d7d;
+    border-radius: 5px;
+    margin-bottom:20px;
+    outline: 0px;
+}
+#fecha, #servicio{
+    display: flex;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+    min-height: 250px;
+}
+#submit{
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: 16px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+#submit:hover{
+    background-color: #c2c2c2;
+}
+p{
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+
