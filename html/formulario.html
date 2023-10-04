@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
-    <link rel="stylesheet" href="/pagina_web/css/styles.css">
+    <link rel="stylesheet" href="/pagina_web/css/style.css">
     <style>
         a{
             text-decoration: none;
@@ -35,21 +35,28 @@
     <div class="background">
         <div class="form">
             <form action="#" method="post">
+                <label for="nombre">Ingrese su nombre:</label>
                 <input type="text" id="nombre" placeholder="Ingrese su nombre" name="nombre" required><br><br>
         
-                <input type="text" id="numero" placeholder="Ingrese su numero telefonico" name="email" required><br><br>
+                <label for="nombre">Ingrese su número teléfonico:</label>
+                <input type="text" id="numero" placeholder="Ingrese su número teléfonico" name="email" required><br><br>
         
+                <label for="nombre">Servicio requerido:</label>
                 <input type="text" id="servicio" placeholder="Ingrese el servicio requerido" name="number" required>
         
+                <label for="nombre">Fecha para la revisión:</label>
                 <input type="date" id="fecha" placeholder="Fecha que desea su revisión" name="fecha"><br><br>
         
+                <label for="mensaje">Cuentenos su situación:</label>
                 <textarea name="mensaje" id="msj" placeholder="Cuentenos su situación" cols="30" rows="10"></textarea>
         
                 <input type="submit" id="submit"  value="Enviar">
         </div>
     </div>
         
-    <div id="espacio_abajo"></div>
+    <div class="espacio_abajo">
+        <div class="pie_de_pag"><h3 id="text_abajo">© Servicio Tecnico Ocaña 2023</h3></div>
+    </div>
      
 </body>
 </html>
